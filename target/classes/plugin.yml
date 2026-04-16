@@ -2,3 +2,27 @@ name: RainingBlocks
 version: '1.0'
 main: me.niclas.rainingBlocks.RainingBlocks
 api-version: '1.21.11'
+
+commands:
+  setamount:
+    description: Sets minimum and maximum amount
+    usage: /setamount <min> <max>
+    permission: rainingblocks.setamount
+    permission-message: You do not have permission to use this command.
+    aliases: [sa, setamt]
+
+  setinterval:
+    description: Sets interval of falling blocks
+    usage: /setinterval <ticks>
+    permission: rainingblocks.setinterval
+    permission-message: You do not have permission to use this command.
+    aliases: [si, setint]
+
+permissions:
+  rainingblocks.setamount:
+    description: Allows use of /setamount
+    default: op
+
+  rainingblocks.setinterval:
+    description: Allows use of /setinterval
+    default: op
