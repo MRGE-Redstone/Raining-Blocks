@@ -1,0 +1,4 @@
+name: RainingBlocks
+version: '1.0'
+main: me.niclas.rainingBlocks.RainingBlocks
+api-version: '1.21.11'
